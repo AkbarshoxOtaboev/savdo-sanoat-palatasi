@@ -400,6 +400,9 @@ body{
     .dropdown-item{
         font-size: 12px;
     }
+    .icon-bar{
+        display: none;
+    }
 
   }
   @media only screen and (max-width:995px) {
@@ -416,6 +419,10 @@ body{
     .footer_links{
         display: flex;
         flex-direction: column;
+    }
+
+    .icon-bar{
+        display: none;
     }
   }
 
@@ -435,6 +442,7 @@ body{
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
+    margin-top: 5px;
   }
   
   .icon-bar a:hover {
@@ -442,27 +450,27 @@ body{
   }
   
   .facebook {
-    background: #3B5998;
+    background: #143797;
     color: white;
   }
   
   .twitter {
-    background: #55ACEE;
+    background: #143797;
     color: white;
   }
   
   .google {
-    background: #c82950;
+    background: #143797;
     color: white;
   }
   
   .linkedin {
-    background: #007bb5;
+    background: #143797;
     color: white;
   }
   
   .youtube {
-    background: #bb0000;
+    background: #143797;
     color: white;
   }
   
